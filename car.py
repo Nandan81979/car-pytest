@@ -9,11 +9,12 @@ def vehicle_info(vehicle_number, owner_name, vehicle_type, year_of_manufacture):
 
 
 def main():
-    vehicle_number = "KA09AB1234"
-    owner_name = "John Doe"
-    vehicle_type = "Sedan"
-    year_of_manufacture = 2018
-  
+    vehicle_number = "KA27EJ0147"
+    owner_name = "Nandan"
+    vehicle_type = "Car"
+    year_of_manufacture = 2021
+
     print(vehicle_info(vehicle_number, owner_name, vehicle_type, year_of_manufacture))
+
 if __name__ == "__main__":
     main()
