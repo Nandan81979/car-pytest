@@ -8,5 +8,5 @@ def test_vehicle_info():
         "Year of Manufacture: 2021"
     )
 
-    result = vehicle_info("KA27EJ0147", "N", "Car", 2020)
+    result = vehicle_info("KA27EJ0147", "Nandan", "Car", 2021)
     assert result == expected_output
